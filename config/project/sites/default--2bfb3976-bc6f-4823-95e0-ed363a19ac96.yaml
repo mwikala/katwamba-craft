@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Katwamba Mutale'
+primary: true
+siteGroup: 4c186928-6cad-47bc-9a79-19ddecd611cf
+sortOrder: 1

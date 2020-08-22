@@ -1,0 +1,43 @@
+{% extends "layouts/_default" %}
+{% set title = entry.title %}
+
+{% set staticImageQuery = craft.assets().volume('static').kind('image') %}
+{% set slidePrevArrow = staticImageQuery.filename('arrow-left-dark.svg').one() %}
+{% set slideNextArrow  = staticImageQuery.filename('arrow-right-dark.svg').one() %}
+
+{% css %}
+#slidePrev {
+        cursor: url("{{ slidePrevArrow.url }}"), pointer;
+    }
+#slideNext {
+    cursor: url("{{ slideNextArrow.url }}"), pointer;
+}
+{% endcss %}
+
+{% block content %}
+
+	<div class="top-block">
+		<p class="slider-title">
+			{% set backArrow = staticImageQuery.filename('left-arrow.svg').one() %}
+			<a href="{{ siteUrl }}" class="pagination-link"><img width="20" src="{{ backArrow.url }}" alt="">Portfolio /
+			</a>
+			{{ entry.title }}</p>
+		<div class="middle">
+			<div class="slider">
+				{% for image in entry.images.all() %}
+					<img src="{{ image.url }}" alt="{{ image.title }}">
+				{% endfor %}
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="flex">
+				<span>
+					<span class="sliderPos">1</span>
+					/
+					<span class="sliderTotal">{{ entry.images|length}}</span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

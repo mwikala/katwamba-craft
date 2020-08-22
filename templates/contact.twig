@@ -1,0 +1,16 @@
+{% extends "layouts/_default" %}
+{% set title = entry.title %}
+
+{% block content %}
+	<div class="content-block">
+		<div class="block">
+			<div class="forty"></div>
+			<div class="forty">
+				<div class="content-block description">
+					{{ entry.description ?? "Lorem Ipsum" }}
+				</div>
+			</div>
+			<div class="forty"></div>
+		</div>
+	</div>
+{% endblock %}

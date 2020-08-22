@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: fd87f4db-37c0-4a92-8194-4247a5319ba0
+handle: autoDisplayNewCollections
+instructions: 'If enabled, every new collection you add will be added to the bottom of the collection list on the home page. Otherwise, you can pick and choose which ones to display and even order them.'
+name: 'Auto Display New Collections'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

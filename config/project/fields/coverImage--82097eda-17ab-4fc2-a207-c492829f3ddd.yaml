@@ -1,0 +1,31 @@
+contentColumnType: string
+fieldGroup: fd87f4db-37c0-4a92-8194-4247a5319ba0
+handle: coverImage
+instructions: ''
+name: 'Cover Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:2e1b441e-bfa9-423e-af6e-79460da26145'
+  defaultUploadLocationSubpath: '{slug}'
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:2e1b441e-bfa9-423e-af6e-79460da26145'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:2e1b441e-bfa9-423e-af6e-79460da26145'
+  targetSiteId: null
+  useSingleFolder: true
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,9 @@
+handle: socialMenu
+instructions: ''
+maxNodes: ''
+name: 'Social Menu'
+propagateNodes: false
+sortOrder: 2
+structure:
+  maxLevels: '1'
+  uid: 22191fbd-df13-4bf9-930c-b34c5801d32e

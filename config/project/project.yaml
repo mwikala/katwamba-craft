@@ -1,0 +1,42 @@
+dateModified: 1598055506
+email:
+  fromEmail: hello@mwikala.co.uk
+  fromName: 'Katwamba Mutale'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  linode-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.19
+  reasons:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.1
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: solo
+  live: true
+  name: 'Katwamba Mutale'
+  schemaVersion: 3.5.12
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

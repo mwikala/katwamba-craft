@@ -1,0 +1,18 @@
+{% extends "layouts/_default" %}
+{% set title = entry.title %}
+
+{% block content %}
+	<div class="content-block">
+
+		<div class="block" data-aos="fade-up">
+			<div class="forty">
+				<img class="img-responsive" src="{{ entry.coverImage.one().url ?? "//via.placeholder.com/400?text=About+Image+Here"}}" alt="{{ entry.coverImage.one().title ?? "" }}" width="400">
+			</div>
+
+			<div class="forty description">
+				{{ entry.description ?? "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur error soluta dolores est nesciunt praesentium, enim fugiat beatae nulla aliquam illum quos, saepe corrupti similique ut optio sit. Ad?" }}
+			</div>
+		</div>
+
+	</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: fd87f4db-37c0-4a92-8194-4247a5319ba0
+handle: collectionList
+instructions: ''
+name: 'Collection List'
+searchable: true
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:ee41712a-21a3-4539-b3bd-d3e5fd98042c'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

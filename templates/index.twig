@@ -1,0 +1,38 @@
+{% extends "layouts/_default" %}
+
+{% if entry.autoDisplayNewCollections %}
+	{% set collections = craft.entries.section('collections').orderBy('postDate asc').all() %}
+{% else %}
+	{% set collections = entry.collectionList.all() %}
+{% endif %}
+
+{% block content %}
+	<div class="content-block">
+		{% if collections|length %}
+			{% for row in collections|batch(3) %}
+				<div class="block" data-aos="fade-up">
+					{% for collection in row %}
+						<div class="forty">
+							<a href="{{ collection.url }}">
+								<img src="{{ collection.images.inReverse().one().url }}" alt="{{ collection.title }}" class="img-responsive">
+							</a>
+						</div>
+					{% endfor %}
+					{% if row|length < 3 %}
+						{% for i in range(1, (3 - (row|length))) %}
+							<div class="forty"></div>
+						{% endfor %}
+					{% endif %}
+				</div>
+			{% endfor %}
+		{% else %}
+			<div class="block" data-aos="fade-up">
+				<div class="forty"></div>
+				<div class="forty center">
+					<p>Nothing here.</p>
+				</div>
+				<div class="forty"></div>
+			</div>
+		{% endif %}
+	</div>
+{% endblock %}

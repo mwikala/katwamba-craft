@@ -1,0 +1,47 @@
+fieldLayouts:
+  64bfd22e-88c5-4879-9ee8-c26ade41001b:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: collectionImages
+hasUrls: true
+name: 'Collection Images'
+settings:
+  bucket: $LINODE_S3_BUCKET
+  contentDisposition: ''
+  endpoint: $LINODE_S3_ENDPOINT
+  expires: '3 months'
+  keyId: $LINODE_S3_ACCESS_KEY
+  region: $LINODE_S3_REGION
+  secret: $LINODE_S3_SECRET
+  subfolder: collections/
+sortOrder: 2
+type: mwikala\linodes3\Volume
+url: $LINODE_S3_BUCKET_URL

@@ -1,0 +1,49 @@
+fieldLayouts:
+  a26ec537-3cee-4fbc-8bcc-c7c2d776ea00:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3c8f9c97-5592-4a1a-94c9-da82818d3fb2
+            instructions: 'These images will be displayed inside each collection. The last image will be used as the cover photo for the collection.'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: collection
+hasTitleField: true
+name: Collection
+section: ee41712a-21a3-4539-b3bd-d3e5fd98042c
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

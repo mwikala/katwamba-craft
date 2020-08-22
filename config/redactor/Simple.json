@@ -1,0 +1,13 @@
+{
+    "buttons": [
+        "formatting",
+        "bold",
+        "italic",
+        "lists",
+        "link",
+        "undo",
+        "redo"
+    ],
+    "toolbarFixed": true,
+    "pasteLinkTarget": "_blank"
+  }
