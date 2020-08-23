@@ -7,8 +7,8 @@
 
 {% css %}
 #slidePrev {
-        cursor: url("{{ slidePrevArrow.url }}"), pointer;
-    }
+    cursor: url("{{ slidePrevArrow.url }}"), pointer;
+}
 #slideNext {
     cursor: url("{{ slideNextArrow.url }}"), pointer;
 }
@@ -19,7 +19,7 @@
 	<div class="top-block">
 		<p class="slider-title">
 			{% set backArrow = staticImageQuery.filename('left-arrow.svg').one() %}
-			<a href="{{ siteUrl }}" class="pagination-link"><img width="20" src="{{ backArrow.url }}" alt="">Portfolio /
+			<a href="{{ siteUrl }}" class="pagination-link"><img width="20" src="{{ backArrow.url }}" alt="">portfolio /
 			</a>
 			{{ entry.title }}</p>
 		<div class="middle">
