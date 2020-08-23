@@ -1,8 +1,9 @@
 baseUrl: $PRIMARY_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
 language: en-GB
-name: 'Katwamba Mutale'
+name: 'katwamba mutale'
 primary: true
 siteGroup: 4c186928-6cad-47bc-9a79-19ddecd611cf
 sortOrder: 1
