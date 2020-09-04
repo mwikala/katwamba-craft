@@ -1,4 +1,4 @@
-dateModified: 1598195881
+dateModified: 1599244327
 email:
   fromEmail: hello@mwikala.co.uk
   fromName: 'Katwamba Mutale'
@@ -36,7 +36,7 @@ system:
   edition: solo
   live: true
   name: 'katwamba mutale'
-  schemaVersion: 3.5.12
+  schemaVersion: 3.5.13
   timeZone: Europe/London
 users:
   allowPublicRegistration: false
